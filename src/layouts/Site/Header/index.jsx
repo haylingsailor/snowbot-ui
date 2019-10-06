@@ -12,10 +12,10 @@ export default () => (
       <span className="ln-u-visually-hidden">Snowbot logo</span>
     </HeaderLogo>
     <HeaderNav drawer="header" fullWidth>
-      <a className="header-item__link" href="#home">
+      <a className="header-item__link" href="#book-collection">
         Home
       </a>
-      <a className="header-item__link" href="#jobs">
+      <a className="header-item__link" href="#groceries">
         Jobs
       </a>
     </HeaderNav>

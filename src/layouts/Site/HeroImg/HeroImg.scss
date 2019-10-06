@@ -1,0 +1,11 @@
+@import "@jsluna/foundation/scss/main";
+
+.hero-img {
+  width: 100%;
+  min-height: $ln-space * 44; // 352px
+  background-image: url("https://stoic-lewin-82d323.netlify.com/static/media/hero-img.cdfe20c1.jpg");
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}

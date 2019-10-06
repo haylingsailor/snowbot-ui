@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-import { Card } from '@jsluna/react'
-import { AwardWinning } from '@jsluna/icons'
+import { Card } from "@jsluna/card";
+import { AwardWinning } from "@jsluna/icons";
 
 const Home = () => (
   <Card padded>
@@ -10,6 +10,6 @@ const Home = () => (
     </h1>
     <p>Congratulations, it looks like this is actually working</p>
   </Card>
-)
+);
 
-export default Home
+export default Home;

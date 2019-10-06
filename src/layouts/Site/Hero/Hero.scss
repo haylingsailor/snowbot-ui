@@ -1,0 +1,7 @@
+@import "@jsluna/foundation/scss/main";
+
+.hero__title {
+  @include ln-font("display-7");
+
+  color: $ln-color-text-alpha;
+}
