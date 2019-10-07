@@ -1,17 +1,8 @@
 import React from "react";
-import { SiteLayout } from "@jsluna/site-layout";
-import Routes from "./routes";
-import Logger from "./helpers/logger";
+import Site from "./layouts/Site";
 
 const App = () => {
-  Logger.info("app");
-
-  return (
-    <SiteLayout>
-      Site
-      <Routes />
-    </SiteLayout>
-  );
+  return <Site />;
 };
 
 export default App;

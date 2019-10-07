@@ -3,12 +3,12 @@ import React from "react";
 import { Card } from "@jsluna/card";
 import { AwardWinning } from "@jsluna/icons";
 
-const Home = () => (
+const JobDetail = () => (
   <Card padded>
     <h1>
-      Home <AwardWinning />
+      Job Detail <AwardWinning />
     </h1>
   </Card>
 );
 
-export default Home;
+export default JobDetail;

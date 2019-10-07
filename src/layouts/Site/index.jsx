@@ -3,8 +3,9 @@ import { Container } from "@jsluna/grid";
 
 import Footer from "./Footer";
 import Header from "./Header";
-import Hero from "./Hero";
 import HeroImg from "./HeroImg";
+
+import { AppRoutes } from "../../routes";
 
 function Site() {
   return (
@@ -12,7 +13,7 @@ function Site() {
       <Header />
       <HeroImg />
       <Container>
-        <Hero />
+        <AppRoutes />
       </Container>
       <Footer />
     </div>
