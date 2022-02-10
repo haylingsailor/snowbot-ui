@@ -57,7 +57,7 @@
     "svgxuse": "^1.2.6"
   },
   "devDependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^7.0.0"
   },
   "devDepDisabled": {
     "enzyme": "^3.10.0",
